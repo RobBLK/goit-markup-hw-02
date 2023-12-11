@@ -13,7 +13,18 @@
     color: #434455;
     background-color: #FFFFFFFF;
 }
-
+.body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
 .nav-bar-container {
     color: #2e2f42;
     text-decoration: none;
@@ -237,4 +248,11 @@
 
 .project-link {
     color: var(--text-color);
+}
+/* Footer Styles */
+.footerstyle {
+    background-color: var(--dark-blue-var);
+    color: var(--light-color);
+    padding: 20px 0;
+    text-align: left;
 }
